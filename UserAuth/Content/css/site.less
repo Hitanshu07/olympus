@@ -1,0 +1,759 @@
+@import "header.less";
+@import "background.less";
+
+/* common css of all*/
+
+
+@size100 : 100%;
+@pdg-zero : pad-zero;
+@dis-flex : display-flex;
+@prop-auto: auto;
+@col-white: #fff;
+@col-black: #000;
+@col-yellow : #e9b123;
+@font-100 : 100;
+@font-300 : 300;
+@font-400 : 400;
+@font-500 : 500;
+@font-700 : 700;
+@font-900 : 900;
+.transition (){
+    transition: all 0.6s ease;
+}
+.placeholder(@color) {
+    &::-webkit-input-placeholder {
+        color: @color;
+    }
+    &:-moz-placeholder {
+        color: @color;
+    }
+    &::-moz-placeholder {
+      color: @color;
+    }
+}
+.font(@size , @weight , @color , @spacing){
+    font-size : @size;
+    font-weight : @weight;
+    color : @color;
+    letter-spacing : @spacing;
+} 
+
+
+html, body {
+	width : @size100;
+	height : @size100;
+}
+@outlineNoneParts : ~"input , select , textarea, button ,a";
+@fontAccross : ~"input , textarea, button ,a , h1, h2, h3, h4, h5, h6, p, span, label, div, select, form";
+@{outlineNoneParts} {
+	outline:none !important;
+}
+@{fontAccross} {
+    font-family: 'Roboto', sans-serif;
+}
+a {
+	color:inherit !important;
+	text-decoration:none !important;
+	}
+.@{pdg-zero} {
+	padding: 0px !important;
+}
+.display-table {
+	width: @size100; height : @size100; display:table; table-layout:fixed; 
+}
+.display-tablecell {
+	display:table-cell; vertical-align : middle;
+}
+.display-flex {
+	display:flex;
+}
+.text-center {
+	text-align:center;
+}
+.row {
+	margin-left:0px !important;
+	margin-right:0px !important;
+	}
+.mar-top (@size) { margin-top: @size; }
+
+/*main css start*/
+
+
+
+body {
+	.display-table;
+}
+.body-div {
+	.display-tablecell;
+	width: @size100;
+    padding-top: 60px;
+}
+.login-container {
+	width:750px;
+	margin: @prop-auto;
+	.text-center;
+}
+.olympus-logo-btm {
+	position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+.logo-img img {
+	margin: @prop-auto;
+}
+.cursor-pointer {
+    cursor : pointer;
+}
+
+/*page1 login page*/
+.bg-login {
+    padding-top:0px;
+.login-container {
+	h2 {
+    text-transform: uppercase;    
+    margin-top: 30px;
+    margin-bottom: 30px;
+    .font(3vw ,@font-300, @col-white, 0px);
+    span {
+    	font-weight: @font-700;
+    }
+	}
+	form {
+	width: (@size100/2)-5%;
+    margin: @prop-auto;
+    margin-top : 11%; 
+	input {
+	width: @size100;
+    margin-bottom: 20px;
+    padding: 15px 30px;
+    border-radius: 30px;
+    border: 2px solid #d3a325;
+    background-color: rgba(0,20,31,0.8);
+    .font(15px ,@font-400, @col-white, 1px);
+
+    .placeholder(@col-white);
+     }
+    
+    .checkboxdiv input[type="checkbox"] {
+    display:none;
+
+    + label span {
+    display:inline-block;
+    width:19px;
+    height:19px;
+    margin:-2px 10px 0 0;
+    vertical-align:middle;
+    background:url("@{base-url}/unticked-box.png");
+    cursor:pointer;
+    .bg-attr();
+	}
+
+	}
+	.checkboxdiv input[type="checkbox"]:checked + label span {
+    background:url("@{base-url}/ticked-box.png");
+    .bg-attr();
+	}
+    label {
+    .font(13px ,@font-400, @col-white, 1px);
+    text-shadow: 2px 0px 4px #1b1b1b;
+    }
+    button {
+    background-color: rgba(233,177,35,0.9);
+    border: 2px solid transparent;
+    width: @size100;
+    padding: 13px 30px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    .font(20px ,@font-900, @col-black, 1px);
+   	margin-top: 14%;
+   	.transition ();
+
+   	&:hover {
+   	background-color: transparent;
+    border: 2px solid #d3a325;
+    color: @col-white;
+   	}
+	}
+	}
+}
+}
+
+/*page2 calculation & history option*/
+
+.calc-hist-optn-page {
+    height: @size100;
+
+    .calc-hist-optn-page-inner , .row  , .col-lg-6 {
+    height: @size100;
+    }
+    .calc-icon-div , .hist-icon-div {
+    width : 200px;
+    margin: @prop-auto;
+    .text-center;
+
+     img {
+     margin: @prop-auto;
+     }
+     h4 {
+    text-transform: uppercase;
+    margin-top: 20px;
+    display: block;
+    .font(30px ,@font-300, @col-white, 1px);
+     }
+     .brder-btm {
+     display : none;
+     width : 30px;
+     height : 2px;
+     background-color : @col-yellow;
+     margin: @prop-auto;
+     }
+    }
+}
+
+/*calculation pages start*/
+.calci-scr {
+    height: @size100;
+    .calci-scr-inner {
+    height: @size100;
+    width: @size100;
+    background-color: rgba(16, 28, 113, 0.7);
+    .display-tablecell div {
+    width: 490px;
+    margin: @prop-auto;
+    .text-center;
+    h1 {
+    .font(4.5vw,@font-900, @col-white, 0px);
+    margin-top: 0px;
+    margin-bottom: 25px;
+    padding-bottom: 7px;
+    border-bottom : 1px solid @col-yellow;
+    display : inline-block;
+    }
+    img {
+    margin: @prop-auto;
+    width: 160px;
+    }
+    .div-next {
+    .mar-top(15%);
+    }
+    }
+    }
+}
+.cal-scr2 .form-doc-info {
+    width : 900px;
+    }
+.form-doc-info {
+    width: (@size100/2);
+    margin: @prop-auto;
+    .text-center;
+    input , select {
+    width: @size100;
+    margin-bottom: 15px;
+    background-color: transparent;
+    border-top: 0px !important;
+    border-left: 0px !important;
+    border-right: 0px !important;
+    border-bottom: 2px solid rgba(255, 255, 2550, 0.5);;
+    padding: 15px 50px 15px 10px;
+    .font(17px,@font-400, @col-white, 1px);
+    .placeholder(@col-white);
+    }
+    .div-next {
+    .mar-top(8%);
+    .sprite.sprite-arr-next {
+        .stitches-sprite(0px, 0px, 50px, 50px);
+        .bg-cover;
+        &:hover {
+        .stitches-sprite(-51px, 0px, 50px, 50px);
+        }
+    }
+    }
+    
+    h2 {
+    display: inline-block;
+    background-color: rgba(255,255,255,0.3);
+    padding: 18px 30px;
+    border-radius: 40px;
+    margin-bottom: 8%;
+    text-transform: uppercase;
+    .font(26px,@font-700, @col-white, 1px);
+    }
+    .suite-num-div {
+    width: 33%;
+    display : inline-block;
+    margin : 3% auto;
+    .input-cicle {
+    width: 130px;
+    height: 130px;
+    margin: @prop-auto;
+    border-radius: 50%;
+    box-shadow: 0 0 0 14pt rgba(233, 177, 35, 0.6) inset;
+    display:table; table-layout:fixed; 
+    .cursor-pointer;
+    .transition ();
+    padding:14px;
+    &:hover {
+        box-shadow: 0 0 0 5pt @col-yellow inset;
+    
+        span {
+          background-color: transparent;  
+        }
+    }
+    &.active{
+    box-shadow: 0 0 0 5pt @col-yellow inset;
+    
+        span {
+          background-color: transparent;  
+        }
+    }
+    span {
+    width: (@size100);
+    .display-tablecell;
+    background-color: @col-yellow;
+    border-radius: (@size100/2);
+    .font(40px,@font-900, @col-white, 1px);
+    }
+    input {
+    visibility : hidden;
+    width: (@size100);
+    height : (@size100);
+
+    }
+    }
+    }
+    span.plus-icon {
+    display : inline-block;
+    .cursor-pointer;
+    margin-top : 4%;
+    }
+    span.minus-icon {
+    display : none;
+    .cursor-pointer;
+    margin-bottom : 4%;
+    }
+    .suite-div2 {
+        display : none;
+    }
+
+}
+.cal-scr3 {
+    .procedure-info {
+    h2 {
+    margin-bottom : 5%;
+    min-width: 450px;
+    }
+    width : ((@size100)-30%);
+    .scroll-bar {
+    height : 400px;
+    }
+    .procedure-ot {
+    border : 1px solid rgba(233,177,35,0.7);
+    padding : 20px 35px;
+    border-radius : 20px;
+    position : relative;
+    margin-bottom : 4%;
+    margin-top : 20px;
+    border-top: 0px;
+    .ot-name {
+    width : (@size100);
+    position : absolute;
+    top : -14px;
+    left : 0;
+    &:before {
+    content: '';
+    position: absolute;
+    left: 13px;
+    width: 40%;
+    top: 14px;
+    border-top: 1px solid rgba(233, 177, 35, 0.4);
+    border-radius: 20px;
+    }
+    &:after {
+    content: '';
+    position: absolute;
+    right: 13px;
+    width: 40%;
+    top: 14px;
+    border-top: 1px solid rgba(233, 177, 35, 0.4);
+    border-radius: 20px;
+    }
+    .font(20px,@font-700, @col-white, 1px);
+    }
+    .plus-icon {
+    display: inline-block !important;
+    }
+    }
+    input , select {
+    border-bottom : 0px;
+    padding : 0;
+    }
+    select {
+    option {
+    background-color : #1c3d79;
+    }
+    }
+    table {
+    width : (@size100);
+    tr.separator {
+    height : 20px;
+    }
+    tr.sel-procedure {
+    background-color: rgba(0,0,0,0.4);
+    td:first-child { border-top-left-radius: 10px; }
+    td:last-child { border-top-right-radius: 10px; }
+    td:first-child { border-bottom-left-radius: 10px; }   
+    td:last-child { border-bottom-right-radius: 10px; }
+    }
+    td {
+    width : (@size100/5);
+    .text-center;
+    .font(13px,@font-400, @col-white, 1px);
+    text-transform : uppercase;
+    padding: 15px 0px;
+    select , label {
+    font-size : 15px;
+    width: 100px;
+    font-weight : @font-700;
+    .text-center;
+    display : inline-flex;
+    margin-bottom : 0px;
+    }
+    select{
+    -webkit-appearance: none;
+    -moz-appearance:    none;
+    appearance:         none;
+    background:url("@{base-url}/select-icon.png");   
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: @size100;
+    padding-right: 20px;
+    }
+    label {
+    text-transform: capitalize;
+    height: 21px;
+    input {
+    margin-right: 9px;
+    font-size: 14px;
+    border: 1px solid rgba(255,255,255,0.17) !important;
+    margin-bottom : 0px;
+    .text-center;
+    }
+    }
+    }
+    }
+    }
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button {  
+  opacity: 1;
+}
+.div-next {
+    .mar-top(6%);
+    }
+span.plus-icon {
+    .mar-top(30px);
+}
+}
+
+.cal-scr4 .procedure-info {
+    .border-btm {
+    width : (@size100)-4%;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 3% auto;
+    }
+   table {
+   
+   tr {
+   background-color: rgba(0, 0, 0, 0.15);
+   td label {width : @size100;margin: @prop-auto;.text-center;display: block;}
+    td:first-child { border-bottom-left-radius: 10px; }   
+    td:last-child { border-bottom-right-radius: 10px; }
+   }
+   tr.sel-procedure {
+    td:first-child { border-bottom-left-radius: 0px; }   
+    td:last-child { border-bottom-right-radius: 0px; }
+   }
+   } 
+   .tbl-procedures {
+   margin-bottom : 30px;
+   }
+   .tbl-scopes  {
+   tr {
+    td {
+    span {
+    display: block;
+    .font(20px,@font-700,@col-yellow,1px);
+    }
+    }
+    }
+    .sel-procedure {
+    td {
+    span {
+    display: block;
+    .font(18px,@font-700,@col-white,1px);
+    }
+    }
+    }
+
+   }
+}
+/*calculation pages end*/
+
+
+/*Responsive Code Starts Here*/
+
+@media screen and (max-width: 1370px) {
+ .bg-login {
+    padding-top:0px;
+.login-container {
+    form {
+    input {
+    padding: 10px 30px;
+    font-size: 14px;
+    }
+    button {
+    padding: 10px 30px;
+    font-size: 19px;
+    }
+    }
+    }
+    } 
+.calc-hist-optn-page {
+    .calc-icon-div h4, .hist-icon-div h4 {
+    font-size : 27px;
+    }
+    .bg-icon-img {
+    width: 130px;
+    height: 130px;
+    }
+    }
+.cal-scr2 .form-doc-info {
+    h2 {
+    padding: 15px 30px;
+    font-size: 23px;
+    margin: 3% 0%;
+    }
+    .suite-num-div {
+        margin: 1.7% auto;
+        .input-cicle {
+            width: 115px;
+            height: 115px;
+            span {
+                font-size: 34px;
+            }
+        }
+    }
+    span.plus-icon {
+    margin-top: 2%;
+    }
+    .div-next {
+    .mar-top(4%);
+    }
+}
+.cal-scr3 .procedure-info {
+    width: 80%;
+    .procedure-info table td {
+    padding: 12px 0px;
+    }
+    .scroll-bar {
+    height: 320px;
+    }
+}
+}
+@media screen and (max-width: 1280px) {
+.cal-scr3 .procedure-info {
+    h2 {
+        min-width: 380px;
+    font-size: 22px;
+    padding: 13px 25px;
+    }
+    .procedure-ot .ot-name {
+    font-size : 17px;
+    }
+    table {
+    td {
+    font-size: 12px;
+    select , label {
+    font-size: 13px;
+    }
+    }
+    }
+    .scroll-bar {
+    height: 280px;
+    }
+}
+}
+@media screen and (max-width: 1160px) {
+ .bg-login {
+.login-container {
+    h2 {
+    font-size : 30px;
+    }
+    form {
+    margin-top: 7%;
+    button {
+    font-size: 18px;
+    }
+    }
+    }
+    } 
+.form-doc-info {
+    width: 60%;
+    input , select {
+    padding: 10px 50px 10px 10px;
+    font-size: 15px;
+    }
+    .select-box .sprite2.sprite-select-icon {
+    top: 8px;
+    right: 12px;
+    }
+}
+.cal-scr3 .procedure-info {
+    width: 90%;
+    }
+}
+@media screen and (max-width: 991px) {
+.cal-scr2 .form-doc-info {
+    width : 700px;
+}
+ .calc-hist-optn-page {
+    .calc-icon-div h4, .hist-icon-div h4 {
+    font-size : 22px;
+    }
+    .bg-icon-img {
+    width: 100px;
+    height: 100px;
+    }
+    }
+    .calci-scr .calci-scr-inner .display-tablecell div h1 {
+    font-size: 40px;
+    }
+.cal-scr3 .procedure-info table td  {
+    font-size: 10px;
+    vertical-align  : top;
+    padding: 15px 5px;
+
+    label , select {
+    font-size: 11px;
+    width: 80px;
+    }
+}
+.cal-scr4 .procedure-info .tbl-scopes {
+    tr td span {
+    font-size: 17px;
+    }
+    .sel-procedure td span {
+    font-size: 15px;
+    }
+}
+.progress {
+    width :@size100 !important ; 
+}
+}
+@media screen and (max-width: 767px) {
+  .bg-login .login-container {
+     width: 370px;
+    .logo-img img {
+    width: 200px;
+    }
+  form {
+    width: 85%;
+    button {
+    padding: 7px 20px;
+    }
+    }
+    }
+.calc-hist-optn-page {
+ .calc-icon-div, .hist-icon-div {
+    float : none !important;
+}
+.calc-hist-optn-page-inner .col-lg-6 {
+    height : (@size100/2);
+    width : (@size100);
+}
+}
+.calci-scr .calci-scr-inner .display-tablecell div {
+    h1 {
+    font-size: 30px;
+    }
+    width: 300px;
+    .sprite.sprite-arr-next {
+    background-position: 0px 0px;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    background-size: cover;
+    }
+}
+.form-doc-info {
+    width: 90%;
+    margin: 5% auto;
+    input , select {
+    margin-bottom : 10px;
+    }
+}
+.cal-scr2 .form-doc-info {
+   width: 90%;
+    h2 {
+    padding: 13px 25px;
+    font-size: 20px;
+    }
+    .suite-num-div {
+        width: 32%;
+        .input-cicle {
+            width: 100px;
+            height: 100px;
+            span {
+                font-size: 27px;
+            }
+        }
+    }
+}
+.progress .progress-bar {
+    font-size : 0px;
+}
+}
+@media screen and (max-width: 480px) {
+.cal-scr2 .form-doc-info {
+h2 {
+    padding: 12px 20px;
+    font-size: 17px;
+    line-height:1.4;
+}
+.suite-num-div {
+    width: 49%;
+}
+}
+}
+@media screen and (max-width: 420px) {
+ .bg-login .login-container {
+     width: @size100;
+     h2 {
+     font-size: 23px;
+     }
+    .logo-img img {
+    width: 170px;
+    }
+  form {
+    width: ((@size100)-10%);
+    max-width: 280px;
+    input,select {
+    padding: 9px 25px;
+    font-size: 12px;
+    margin-bottom: 12px;
+    }
+    label {
+    font-size: 11px;
+    }
+    .checkboxdiv input[type="checkbox"] + label span {
+    width: 15px;
+    height: 15px;
+    }
+    button {
+    padding: 7px 20px;
+    margin-top: 25px;
+    font-size: 15px;
+    }
+    }
+    }
+}

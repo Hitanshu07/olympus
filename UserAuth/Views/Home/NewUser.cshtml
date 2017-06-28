@@ -1,0 +1,83 @@
+﻿
+@{
+    ViewBag.Title = "NewUser";
+}
+<style>
+    .sprite-arr-next{
+        cursor:pointer;
+        display:inline-block
+    }
+</style>
+<header>
+    <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <i class="sprite sprite-arr-prev pull-left"></i>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+            <div class="progress">
+
+                <div class="wid-33"><span class="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width:25%;">25%</span></div>
+                <div class="wid-33"><span></span></div>
+                <div class="wid-33"><span></span></div>
+
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <i class="sprite2 sprite-logout-icon pull-right"></i>
+        </div>
+    </div>
+</header>
+<div class="body-div bg-common calculatn-scr cal-scr1">
+    <div class="form-doc-info">
+        <form id="user-form" class="validate-form" action="~/Home/AddUser" method="post">
+            @Html.AntiForgeryToken()
+            <input class="" id="Name" placeholder="Name" name="Name" required type="text">
+            <input class="" id="Hospital" placeholder="Hospital" name="Hospital" required type="text">
+
+            <input class="hidden" id="Department" placeholder="Department" name="Department" required type="text">
+            <div class="select-box">
+                <i class="sprite2 sprite-select-icon"></i>
+                <select class="dept-select">
+                    <option>Department</option>
+                    <option value="test1">test1</option>
+                    <option value="test2">test2</option>
+                </select>
+            </div>
+
+            <input class="" id="State" placeholder="State" name="State" required type="text">
+            @*<div class="select-box">
+                <i class="sprite2 sprite-select-icon"></i>
+                <select>
+                    <option>State</option>
+                    <option value="">Harayana</option>
+                    <option value="">test2</option>
+                </select>
+            </div>*@
+
+            <input class="" id="City" placeholder="City" name="City" required type="text">
+            @*<div class="select-box">
+                <i class="sprite2 sprite-select-icon"></i>
+                <select>
+                    <option>City</option>
+                    <option>test1</option>
+                    <option>test2</option>
+                </select>
+            </div>*@
+            <input class="" id="EmailId" placeholder="Email" name="EmailId" required type="email">
+        </form>
+
+        <div class="div-next">
+            <a id="submit"><i class="sprite sprite-arr-next"></i></a>
+        </div>
+    </div>
+</div>
+
+<script>
+    $("#submit").click(function () {
+        $("#user-form").submit();
+    })
+    $(".dept-select").change(function () {
+        var dept = $(this).val();
+        $("#Department").val(dept)
+    })
+</script>

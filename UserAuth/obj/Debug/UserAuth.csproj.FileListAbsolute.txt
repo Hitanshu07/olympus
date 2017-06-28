@@ -1,0 +1,144 @@
+E:\hitanshu\tapmap\samaj live code\UserAuth\bin\UserAuth.dll.config
+E:\hitanshu\tapmap\samaj live code\UserAuth\bin\UserAuth.dll
+E:\hitanshu\tapmap\samaj live code\UserAuth\bin\UserAuth.pdb
+E:\hitanshu\tapmap\samaj live code\UserAuth\bin\Antlr3.Runtime.dll
+E:\hitanshu\tapmap\samaj live code\UserAuth\bin\EntityFramework.dll
+E:\hitanshu\tapmap\samaj live code\UserAuth\bin\EntityFramework.SqlServer.dll
+E:\hitanshu\tapmap\samaj live code\UserAuth\bin\Microsoft.Azure.AppService.ApiApps.Service.dll
+E:\hitanshu\tapmap\samaj live code\UserAuth\bin\Microsoft.Web.Infrastructure.dll
+E:\hitanshu\tapmap\samaj live code\UserAuth\bin\Newtonsoft.Json.dll
+E:\hitanshu\tapmap\samaj live code\UserAuth\bin\Swashbuckle.Core.dll
+E:\hitanshu\tapmap\samaj live code\UserAuth\bin\System.IdentityModel.Tokens.Jwt.dll
+E:\hitanshu\tapmap\samaj live code\UserAuth\bin\System.Net.Http.Formatting.dll
+E:\hitanshu\tapmap\samaj live code\UserAuth\bin\System.Web.Cors.dll
+E:\hitanshu\tapmap\samaj live code\UserAuth\bin\System.Web.Helpers.dll
+E:\hitanshu\tapmap\samaj live code\UserAuth\bin\System.Web.Http.Cors.dll
+E:\hitanshu\tapmap\samaj live code\UserAuth\bin\System.Web.Http.dll
+E:\hitanshu\tapmap\samaj live code\UserAuth\bin\System.Web.Http.WebHost.dll
+E:\hitanshu\tapmap\samaj live code\UserAuth\bin\System.Web.Mvc.dll
+E:\hitanshu\tapmap\samaj live code\UserAuth\bin\System.Web.Optimization.dll
+E:\hitanshu\tapmap\samaj live code\UserAuth\bin\System.Web.Razor.dll
+E:\hitanshu\tapmap\samaj live code\UserAuth\bin\System.Web.WebPages.Deployment.dll
+E:\hitanshu\tapmap\samaj live code\UserAuth\bin\System.Web.WebPages.dll
+E:\hitanshu\tapmap\samaj live code\UserAuth\bin\System.Web.WebPages.Razor.dll
+E:\hitanshu\tapmap\samaj live code\UserAuth\bin\WebActivatorEx.dll
+E:\hitanshu\tapmap\samaj live code\UserAuth\bin\WebGrease.dll
+E:\hitanshu\tapmap\samaj live code\UserAuth\bin\WebInkLibrary.Core.dll
+E:\hitanshu\tapmap\samaj live code\UserAuth\bin\WebInkLibrary.Utils.dll
+E:\hitanshu\tapmap\samaj live code\UserAuth\bin\WebInkLibrary.Core.pdb
+E:\hitanshu\tapmap\samaj live code\UserAuth\bin\WebInkLibrary.Utils.pdb
+E:\hitanshu\tapmap\samaj live code\UserAuth\bin\EntityFramework.xml
+E:\hitanshu\tapmap\samaj live code\UserAuth\bin\EntityFramework.SqlServer.xml
+E:\hitanshu\tapmap\samaj live code\UserAuth\bin\System.IdentityModel.Tokens.Jwt.xml
+E:\hitanshu\tapmap\samaj live code\UserAuth\bin\System.Net.Http.Formatting.xml
+E:\hitanshu\tapmap\samaj live code\UserAuth\bin\System.Web.Http.xml
+E:\hitanshu\tapmap\samaj live code\UserAuth\bin\System.Web.Http.Cors.xml
+E:\hitanshu\tapmap\samaj live code\UserAuth\bin\Newtonsoft.Json.xml
+E:\hitanshu\tapmap\samaj live code\UserAuth\bin\System.Web.Helpers.xml
+E:\hitanshu\tapmap\samaj live code\UserAuth\bin\System.Web.Http.WebHost.xml
+E:\hitanshu\tapmap\samaj live code\UserAuth\bin\System.Web.Mvc.xml
+E:\hitanshu\tapmap\samaj live code\UserAuth\bin\System.Web.Optimization.xml
+E:\hitanshu\tapmap\samaj live code\UserAuth\bin\System.Web.Razor.xml
+E:\hitanshu\tapmap\samaj live code\UserAuth\bin\System.Web.WebPages.xml
+E:\hitanshu\tapmap\samaj live code\UserAuth\bin\System.Web.WebPages.Deployment.xml
+E:\hitanshu\tapmap\samaj live code\UserAuth\bin\System.Web.WebPages.Razor.xml
+E:\hitanshu\tapmap\samaj live code\UserAuth\bin\Antlr3.Runtime.pdb
+E:\hitanshu\tapmap\samaj live code\UserAuth\obj\Debug\UserAuth.csprojResolveAssemblyReference.cache
+E:\hitanshu\tapmap\samaj live code\UserAuth\obj\Debug\UserAuth.dll
+E:\hitanshu\tapmap\samaj live code\UserAuth\obj\Debug\UserAuth.pdb
+H:\new\Projects\olymus\code\UserAuth\bin\Antlr3.Runtime.dll
+H:\new\Projects\olymus\code\UserAuth\bin\EntityFramework.dll
+H:\new\Projects\olymus\code\UserAuth\bin\EntityFramework.SqlServer.dll
+H:\new\Projects\olymus\code\UserAuth\bin\Microsoft.Azure.AppService.ApiApps.Service.dll
+H:\new\Projects\olymus\code\UserAuth\bin\Microsoft.Web.Infrastructure.dll
+H:\new\Projects\olymus\code\UserAuth\bin\Newtonsoft.Json.dll
+H:\new\Projects\olymus\code\UserAuth\bin\Swashbuckle.Core.dll
+H:\new\Projects\olymus\code\UserAuth\bin\System.IdentityModel.Tokens.Jwt.dll
+H:\new\Projects\olymus\code\UserAuth\bin\System.Net.Http.Formatting.dll
+H:\new\Projects\olymus\code\UserAuth\bin\System.Web.Cors.dll
+H:\new\Projects\olymus\code\UserAuth\bin\System.Web.Helpers.dll
+H:\new\Projects\olymus\code\UserAuth\bin\System.Web.Http.Cors.dll
+H:\new\Projects\olymus\code\UserAuth\bin\System.Web.Http.dll
+H:\new\Projects\olymus\code\UserAuth\bin\System.Web.Http.WebHost.dll
+H:\new\Projects\olymus\code\UserAuth\bin\System.Web.Mvc.dll
+H:\new\Projects\olymus\code\UserAuth\bin\System.Web.Optimization.dll
+H:\new\Projects\olymus\code\UserAuth\bin\System.Web.Razor.dll
+H:\new\Projects\olymus\code\UserAuth\bin\System.Web.WebPages.Deployment.dll
+H:\new\Projects\olymus\code\UserAuth\bin\System.Web.WebPages.dll
+H:\new\Projects\olymus\code\UserAuth\bin\System.Web.WebPages.Razor.dll
+H:\new\Projects\olymus\code\UserAuth\bin\WebActivatorEx.dll
+H:\new\Projects\olymus\code\UserAuth\bin\WebGrease.dll
+H:\new\Projects\olymus\code\UserAuth\bin\WebInkLibrary.Core.dll
+H:\new\Projects\olymus\code\UserAuth\bin\WebInkLibrary.Utils.dll
+H:\new\Projects\olymus\code\UserAuth\bin\WebInkLibrary.Core.pdb
+H:\new\Projects\olymus\code\UserAuth\bin\WebInkLibrary.Utils.pdb
+H:\new\Projects\olymus\code\UserAuth\bin\EntityFramework.xml
+H:\new\Projects\olymus\code\UserAuth\bin\EntityFramework.SqlServer.xml
+H:\new\Projects\olymus\code\UserAuth\bin\System.IdentityModel.Tokens.Jwt.xml
+H:\new\Projects\olymus\code\UserAuth\bin\System.Net.Http.Formatting.xml
+H:\new\Projects\olymus\code\UserAuth\bin\System.Web.Http.xml
+H:\new\Projects\olymus\code\UserAuth\bin\System.Web.Http.Cors.xml
+H:\new\Projects\olymus\code\UserAuth\bin\Newtonsoft.Json.xml
+H:\new\Projects\olymus\code\UserAuth\bin\System.Web.Helpers.xml
+H:\new\Projects\olymus\code\UserAuth\bin\System.Web.Http.WebHost.xml
+H:\new\Projects\olymus\code\UserAuth\bin\System.Web.Mvc.xml
+H:\new\Projects\olymus\code\UserAuth\bin\System.Web.Optimization.xml
+H:\new\Projects\olymus\code\UserAuth\bin\System.Web.Razor.xml
+H:\new\Projects\olymus\code\UserAuth\bin\System.Web.WebPages.xml
+H:\new\Projects\olymus\code\UserAuth\bin\System.Web.WebPages.Deployment.xml
+H:\new\Projects\olymus\code\UserAuth\bin\System.Web.WebPages.Razor.xml
+H:\new\Projects\olymus\code\UserAuth\bin\Antlr3.Runtime.pdb
+H:\new\Projects\olymus\code\UserAuth\obj\Debug\UserAuth.csprojResolveAssemblyReference.cache
+H:\new\Projects\olymus\code\UserAuth\bin\UserAuth.dll.config
+H:\new\Projects\olymus\code\UserAuth\bin\UserAuth.dll
+H:\new\Projects\olymus\code\UserAuth\bin\UserAuth.pdb
+H:\new\Projects\olymus\code\UserAuth\obj\Debug\UserAuth.dll
+H:\new\Projects\olymus\code\UserAuth\obj\Debug\UserAuth.pdb
+H:\new\Projects\olympus\code\UserAuth\obj\Debug\UserAuth.csprojResolveAssemblyReference.cache
+H:\new\Projects\olympus\code\UserAuth\obj\Debug\UserAuth.dll
+H:\new\Projects\olympus\code\UserAuth\obj\Debug\UserAuth.pdb
+H:\new\Projects\olympus\code\UserAuth\bin\UserAuth.dll.config
+H:\new\Projects\olympus\code\UserAuth\bin\UserAuth.dll
+H:\new\Projects\olympus\code\UserAuth\bin\UserAuth.pdb
+H:\new\Projects\olympus\code\UserAuth\bin\Antlr3.Runtime.dll
+H:\new\Projects\olympus\code\UserAuth\bin\EntityFramework.dll
+H:\new\Projects\olympus\code\UserAuth\bin\EntityFramework.SqlServer.dll
+H:\new\Projects\olympus\code\UserAuth\bin\Microsoft.Azure.AppService.ApiApps.Service.dll
+H:\new\Projects\olympus\code\UserAuth\bin\Microsoft.Web.Infrastructure.dll
+H:\new\Projects\olympus\code\UserAuth\bin\Newtonsoft.Json.dll
+H:\new\Projects\olympus\code\UserAuth\bin\Swashbuckle.Core.dll
+H:\new\Projects\olympus\code\UserAuth\bin\System.IdentityModel.Tokens.Jwt.dll
+H:\new\Projects\olympus\code\UserAuth\bin\System.Net.Http.Formatting.dll
+H:\new\Projects\olympus\code\UserAuth\bin\System.Web.Cors.dll
+H:\new\Projects\olympus\code\UserAuth\bin\System.Web.Helpers.dll
+H:\new\Projects\olympus\code\UserAuth\bin\System.Web.Http.Cors.dll
+H:\new\Projects\olympus\code\UserAuth\bin\System.Web.Http.dll
+H:\new\Projects\olympus\code\UserAuth\bin\System.Web.Http.WebHost.dll
+H:\new\Projects\olympus\code\UserAuth\bin\System.Web.Mvc.dll
+H:\new\Projects\olympus\code\UserAuth\bin\System.Web.Optimization.dll
+H:\new\Projects\olympus\code\UserAuth\bin\System.Web.Razor.dll
+H:\new\Projects\olympus\code\UserAuth\bin\System.Web.WebPages.Deployment.dll
+H:\new\Projects\olympus\code\UserAuth\bin\System.Web.WebPages.dll
+H:\new\Projects\olympus\code\UserAuth\bin\System.Web.WebPages.Razor.dll
+H:\new\Projects\olympus\code\UserAuth\bin\WebActivatorEx.dll
+H:\new\Projects\olympus\code\UserAuth\bin\WebGrease.dll
+H:\new\Projects\olympus\code\UserAuth\bin\WebInkLibrary.Core.dll
+H:\new\Projects\olympus\code\UserAuth\bin\WebInkLibrary.Utils.dll
+H:\new\Projects\olympus\code\UserAuth\bin\WebInkLibrary.Core.pdb
+H:\new\Projects\olympus\code\UserAuth\bin\WebInkLibrary.Utils.pdb
+H:\new\Projects\olympus\code\UserAuth\bin\EntityFramework.xml
+H:\new\Projects\olympus\code\UserAuth\bin\EntityFramework.SqlServer.xml
+H:\new\Projects\olympus\code\UserAuth\bin\System.IdentityModel.Tokens.Jwt.xml
+H:\new\Projects\olympus\code\UserAuth\bin\System.Net.Http.Formatting.xml
+H:\new\Projects\olympus\code\UserAuth\bin\System.Web.Http.xml
+H:\new\Projects\olympus\code\UserAuth\bin\System.Web.Http.Cors.xml
+H:\new\Projects\olympus\code\UserAuth\bin\Newtonsoft.Json.xml
+H:\new\Projects\olympus\code\UserAuth\bin\System.Web.Helpers.xml
+H:\new\Projects\olympus\code\UserAuth\bin\System.Web.Http.WebHost.xml
+H:\new\Projects\olympus\code\UserAuth\bin\System.Web.Mvc.xml
+H:\new\Projects\olympus\code\UserAuth\bin\System.Web.Optimization.xml
+H:\new\Projects\olympus\code\UserAuth\bin\System.Web.Razor.xml
+H:\new\Projects\olympus\code\UserAuth\bin\System.Web.WebPages.xml
+H:\new\Projects\olympus\code\UserAuth\bin\System.Web.WebPages.Deployment.xml
+H:\new\Projects\olympus\code\UserAuth\bin\System.Web.WebPages.Razor.xml
+H:\new\Projects\olympus\code\UserAuth\bin\Antlr3.Runtime.pdb

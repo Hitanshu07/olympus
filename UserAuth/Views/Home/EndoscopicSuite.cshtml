@@ -1,0 +1,131 @@
+﻿
+@{
+    ViewBag.Title = ViewBag.Title;
+    var usernewid = ViewBag.id;
+}
+<style>
+    .sprite-arr-next {
+    cursor:pointer;
+    display:inline-block
+    }
+</style>
+<header>
+    <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <i class="sprite sprite-arr-prev pull-left"></i>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+            <div class="progress">
+
+                <div class="wid-33"><span class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%;">50%</span></div>
+                <div class="wid-33"><span></span></div>
+                <div class="wid-33"><span></span></div>
+
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <i class="sprite2 sprite-logout-icon pull-right"></i>
+        </div>
+    </div>
+</header>
+<div class="body-div bg-common calculatn-scr cal-scr2">
+    <div class="form-doc-info">
+        <h2>Select number of endoscopy suite</h2>
+        <form id="end-form" class="validate-form" action="~/Home/UpdateEndoscopySuite" method="post">
+            @Html.AntiForgeryToken()
+
+            <input type="hidden" name="UserId" id="UserId" value="@usernewid" />
+            <input class="hidden" id="EndocscopySuites" placeholder="" name="EndocscopySuites" required type="number">
+            <div class="row suite-div1">
+                <div class="suite-num-div">
+                    <div class="input-cicle">
+                        <span>01</span>
+                    </div>
+                </div>
+                <div class="suite-num-div">
+                    <div class="input-cicle">
+                        <span>02</span>
+                    </div>
+                </div>
+                <div class="suite-num-div">
+                    <div class="input-cicle">
+                        <span>03</span>
+                    </div>
+                </div>
+                <div class="suite-num-div">
+                    <div class="input-cicle">
+                        <span>04</span>
+                    </div>
+                </div>
+                <div class="suite-num-div">
+                    <div class="input-cicle">
+                        <span>05</span>
+                    </div>
+                </div>
+                <div class="suite-num-div">
+                    <div class="input-cicle">
+                        <span>06</span>
+                    </div>
+                </div>
+            </div>
+            <span class="plus-icon"><i class="sprite2 sprite-plus-icon"></i></span>
+            <span class="minus-icon"><i class="sprite2 sprite-minus-icon"></i></span>
+            <div class="row suite-div2">
+                <div class="suite-num-div">
+                    <div class="input-cicle">
+                        <span>07</span>
+                    </div>
+                </div>
+                <div class="suite-num-div">
+                    <div class="input-cicle">
+                        <span>08</span>
+                    </div>
+                </div>
+                <div class="suite-num-div">
+                    <div class="input-cicle">
+                        <span>09</span>
+                    </div>
+                </div>
+                <div class="suite-num-div">
+                    <div class="input-cicle">
+                        <span>10</span>
+                    </div>
+                </div>
+                <div class="suite-num-div">
+                    <div class="input-cicle">
+                        <span>11</span>
+                    </div>
+                </div>
+                <div class="suite-num-div">
+                    <div class="input-cicle">
+                        <span>12</span>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+        <div class="div-next">
+            <a class="form-submit"><i class="sprite sprite-arr-next"></i></a>
+        </div>
+    </div>
+</div>
+<script>
+    $(".input-cicle").click(function () {
+        $(".input-cicle").removeClass("active")
+        $(this).addClass("active");
+        var value = $(this).children("span").html();
+        value = (value * 10) / 10;
+        $("#EndocscopySuites").val(value)
+    });
+    $(".sprite-arr-next").click(function () {
+        var value = $("#EndocscopySuites").val();
+        if (value != null || value != "") {
+            $("#end-form").submit();
+        }
+        else {
+            alert("Please Select Endocsopy Number")
+        }
+
+    })
+</script>
+

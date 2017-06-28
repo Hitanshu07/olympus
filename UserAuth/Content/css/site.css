@@ -1,0 +1,974 @@
+﻿header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  padding: 10px 20px;
+  background-color: #101c71;
+}
+header .sprite.sprite-arr-prev {
+  background-position: -79px 0px;
+  width: 40px;
+  height: 40px;
+  margin: auto;
+  background-size: cover;
+}
+header .sprite.sprite-arr-prev:hover {
+  background-position: -79px 0px;
+  background-size: cover;
+}
+header .sprite2.sprite-logout-icon {
+  background-position: 0px 0px;
+  width: 33px;
+  height: 34px;
+  background-size: cover;
+  margin: auto;
+  margin-top: 5px;
+}
+header .col-lg-6 img {
+  width: 150px;
+  margin: 14px auto;
+}
+header .col-lg-3 {
+  text-align: right;
+}
+header .col-lg-3 span {
+  display: inline-block;
+  margin-right: 14px;
+  margin-top: 12px;
+  font-size: 13px;
+  font-weight: 900;
+  color: #ffffff;
+  letter-spacing: 1px;
+}
+/*Responsive Code header Starts Here*/
+@media screen and (max-width: 767px) {
+  header {
+    padding: 10px 0px;
+  }
+}
+/*Responsive Code header Ends Here*/
+.bg-cover {
+  background-size: cover;
+}
+.bg-common {
+  background: url("../images/bg-login.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/*sprite*/
+.sprite {
+  background-image: url("../images/spritesheet.png");
+  background-repeat: no-repeat;
+  display: block;
+}
+.sprite.sprite-arr-next {
+  background-position: -5px -5px;
+  width: 60px;
+  height: 60px;
+  margin: auto;
+  transition: all 0.6s ease;
+}
+.sprite.sprite-arr-next:hover {
+  background-position: -75px -5px;
+  width: 60px;
+  height: 60px;
+  margin: auto;
+}
+.sprite.sprite-arr-prev {
+  background-position: -145px -5px;
+  width: 60px;
+  height: 60px;
+  margin: auto;
+}
+.sprite.sprite-arr-prev-hover {
+  background-position: -215px -5px;
+  width: 60px;
+  height: 60px;
+  margin: auto;
+}
+.sprite2 {
+  background-image: url("../images/spritesheet2.png");
+  background-repeat: no-repeat;
+  display: block;
+}
+.sprite2.sprite-logout-icon {
+  background-position: -5px -5px;
+  width: 22px;
+  height: 27px;
+  margin: auto;
+}
+.sprite2.sprite-minus-icon {
+  background-position: -46px -4px;
+  width: 22px;
+  height: 22px;
+  margin: auto;
+}
+.sprite2.sprite-plus-icon {
+  background-position: -76px -4px;
+  width: 22px;
+  height: 22px;
+  margin: auto;
+}
+.sprite2.sprite-select-icon {
+  background-position: -67px -5px;
+  width: 30px;
+  height: 30px;
+  margin: auto;
+}
+.calc-hist-optn-page-inner .col-lg-6 {
+  width: 50%;
+  transition: all 0.6s ease;
+  padding: 0px 7%;
+}
+.calc-hist-optn-page-inner .col-lg-6 .calc-icon-div .bg-icon-img {
+  background: url("../images/calculate-icon-white.png");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.calc-hist-optn-page-inner .col-lg-6 .hist-icon-div .bg-icon-img {
+  background: url("../images/history-icon-white.png");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.calc-hist-optn-page-inner .col-lg-6:hover {
+  background-color: rgba(16, 28, 113, 0.6);
+}
+.calc-hist-optn-page-inner .col-lg-6:hover .calc-icon-div .bg-icon-img {
+  background: url("../images/calculate-icon-hover.png");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.calc-hist-optn-page-inner .col-lg-6:hover .hist-icon-div .bg-icon-img {
+  background: url("../images/history-icon-hover.png");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.calc-hist-optn-page-inner .col-lg-6:hover h4 {
+  font-weight: 900;
+}
+.calc-hist-optn-page-inner .col-lg-6:hover .brder-btm {
+  display: block;
+}
+.calc-hist-optn-page-inner .bg-icon-img {
+  width: 150px;
+  height: 150px;
+  display: block;
+  margin: auto;
+}
+.select-box {
+  margin: auto;
+  position: relative;
+}
+.select-box select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.select-box select option {
+  background-color: #1c3d79;
+}
+.select-box .sprite2.sprite-select-icon {
+  background-position: -81px 0px;
+  width: 30px;
+  height: 33px;
+  margin: auto;
+  position: absolute;
+  right: 15px;
+  background-size: cover;
+  top: 12px;
+}
+.progress {
+  background: #ad7f14;
+  height: 17px;
+  margin: 12px auto;
+  width: 400px !important;
+  background: -webkit-linear-gradient(-90deg, #ad7f14, #d5a329);
+  background: -o-linear-gradient(-90deg, #ad7f14, #d5a329);
+  background: -moz-linear-gradient(-90deg, #ad7f14, #d5a329);
+  background: linear-gradient(-90deg, #ad7f14, #d5a329);
+  border-radius: 10px;
+}
+.progress .progress-bar {
+  background-color: rgba(255, 255, 255, 0.6);
+  color: #000;
+  font-size: 10px;
+  line-height: 16px;
+  font-weight: 400;
+}
+.wid-33 {
+  width: 33.33% !important;
+  float: left;
+  height: 100%;
+  border-right: 1px solid rgba(255, 255, 255, 0.7);
+}
+.wid-33:nth-child(3) {
+  border-right: 0px;
+}
+/* common css of all*/
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+input , select , textarea, button ,a {
+  outline: none !important;
+}
+input , textarea, button ,a , h1, h2, h3, h4, h5, h6, p, span, label, div, select, form {
+  font-family: 'Roboto', sans-serif;
+}
+a {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+.pad-zero {
+  padding: 0px !important;
+}
+.display-table {
+  width: 100%;
+  height: 100%;
+  display: table;
+  table-layout: fixed;
+}
+.display-tablecell {
+  display: table-cell;
+  vertical-align: middle;
+}
+.display-flex {
+  display: flex;
+}
+.text-center {
+  text-align: center;
+}
+.row {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+/*main css start*/
+body {
+  width: 100%;
+  height: 100%;
+  display: table;
+  table-layout: fixed;
+}
+.body-div {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  padding-top: 60px;
+}
+.login-container {
+  width: 750px;
+  margin: auto;
+  text-align: center;
+}
+.olympus-logo-btm {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+.logo-img img {
+  margin: auto;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+/*page1 login page*/
+.bg-login {
+  padding-top: 0px;
+}
+.bg-login .login-container h2 {
+  text-transform: uppercase;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 3vw;
+  font-weight: 300;
+  color: #ffffff;
+  letter-spacing: 0px;
+}
+.bg-login .login-container h2 span {
+  font-weight: 700;
+}
+.bg-login .login-container form {
+  width: 45%;
+  margin: auto;
+  margin-top: 11%;
+}
+.bg-login .login-container form input {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 15px 30px;
+  border-radius: 30px;
+  border: 2px solid #d3a325;
+  background-color: rgba(0, 20, 31, 0.8);
+  font-size: 15px;
+  font-weight: 400;
+  color: #ffffff;
+  letter-spacing: 1px;
+}
+.bg-login .login-container form input::-webkit-input-placeholder {
+  color: #ffffff;
+}
+.bg-login .login-container form input:-moz-placeholder {
+  color: #ffffff;
+}
+.bg-login .login-container form input::-moz-placeholder {
+  color: #ffffff;
+}
+.bg-login .login-container form .checkboxdiv input[type="checkbox"] {
+  display: none;
+}
+.bg-login .login-container form .checkboxdiv input[type="checkbox"] + label span {
+  display: inline-block;
+  width: 19px;
+  height: 19px;
+  margin: -2px 10px 0 0;
+  vertical-align: middle;
+  background: url("../images/unticked-box.png");
+  cursor: pointer;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.bg-login .login-container form .checkboxdiv input[type="checkbox"]:checked + label span {
+  background: url("../images/ticked-box.png");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.bg-login .login-container form label {
+  font-size: 13px;
+  font-weight: 400;
+  color: #ffffff;
+  letter-spacing: 1px;
+  text-shadow: 2px 0px 4px #1b1b1b;
+}
+.bg-login .login-container form button {
+  background-color: rgba(233, 177, 35, 0.9);
+  border: 2px solid transparent;
+  width: 100%;
+  padding: 13px 30px;
+  border-radius: 30px;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 900;
+  color: #000000;
+  letter-spacing: 1px;
+  margin-top: 14%;
+  transition: all 0.6s ease;
+}
+.bg-login .login-container form button:hover {
+  background-color: transparent;
+  border: 2px solid #d3a325;
+  color: #ffffff;
+}
+/*page2 calculation & history option*/
+.calc-hist-optn-page {
+  height: 100%;
+}
+.calc-hist-optn-page .calc-hist-optn-page-inner,
+.calc-hist-optn-page .row,
+.calc-hist-optn-page .col-lg-6 {
+  height: 100%;
+}
+.calc-hist-optn-page .calc-icon-div,
+.calc-hist-optn-page .hist-icon-div {
+  width: 200px;
+  margin: auto;
+  text-align: center;
+}
+.calc-hist-optn-page .calc-icon-div img,
+.calc-hist-optn-page .hist-icon-div img {
+  margin: auto;
+}
+.calc-hist-optn-page .calc-icon-div h4,
+.calc-hist-optn-page .hist-icon-div h4 {
+  text-transform: uppercase;
+  margin-top: 20px;
+  display: block;
+  font-size: 30px;
+  font-weight: 300;
+  color: #ffffff;
+  letter-spacing: 1px;
+}
+.calc-hist-optn-page .calc-icon-div .brder-btm,
+.calc-hist-optn-page .hist-icon-div .brder-btm {
+  display: none;
+  width: 30px;
+  height: 2px;
+  background-color: #e9b123;
+  margin: auto;
+}
+/*calculation pages start*/
+.calci-scr {
+  height: 100%;
+}
+.calci-scr .calci-scr-inner {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(16, 28, 113, 0.7);
+}
+.calci-scr .calci-scr-inner .display-tablecell div {
+  width: 490px;
+  margin: auto;
+  text-align: center;
+}
+.calci-scr .calci-scr-inner .display-tablecell div h1 {
+  font-size: 4.5vw;
+  font-weight: 900;
+  color: #ffffff;
+  letter-spacing: 0px;
+  margin-top: 0px;
+  margin-bottom: 25px;
+  padding-bottom: 7px;
+  border-bottom: 1px solid #e9b123;
+  display: inline-block;
+}
+.calci-scr .calci-scr-inner .display-tablecell div img {
+  margin: auto;
+  width: 160px;
+}
+.calci-scr .calci-scr-inner .display-tablecell div .div-next {
+  margin-top: 15%;
+}
+.cal-scr2 .form-doc-info {
+  width: 900px;
+}
+.form-doc-info {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+.form-doc-info input,
+.form-doc-info select {
+  width: 100%;
+  margin-bottom: 15px;
+  background-color: transparent;
+  border-top: 0px !important;
+  border-left: 0px !important;
+  border-right: 0px !important;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+  padding: 15px 50px 15px 10px;
+  font-size: 17px;
+  font-weight: 400;
+  color: #ffffff;
+  letter-spacing: 1px;
+}
+.form-doc-info input::-webkit-input-placeholder,
+.form-doc-info select::-webkit-input-placeholder {
+  color: #ffffff;
+}
+.form-doc-info input:-moz-placeholder,
+.form-doc-info select:-moz-placeholder {
+  color: #ffffff;
+}
+.form-doc-info input::-moz-placeholder,
+.form-doc-info select::-moz-placeholder {
+  color: #ffffff;
+}
+.form-doc-info .div-next {
+  margin-top: 8%;
+}
+.form-doc-info .div-next .sprite.sprite-arr-next {
+  background-position: 0px 0px;
+  width: 50px;
+  height: 50px;
+  margin: auto;
+  background-size: cover;
+}
+.form-doc-info .div-next .sprite.sprite-arr-next:hover {
+  background-position: -51px 0px;
+  width: 50px;
+  height: 50px;
+  margin: auto;
+}
+.form-doc-info h2 {
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 18px 30px;
+  border-radius: 40px;
+  margin-bottom: 8%;
+  text-transform: uppercase;
+  font-size: 26px;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: 1px;
+}
+.form-doc-info .suite-num-div {
+  width: 33%;
+  display: inline-block;
+  margin: 3% auto;
+}
+.form-doc-info .suite-num-div .input-cicle {
+  width: 130px;
+  height: 130px;
+  margin: auto;
+  border-radius: 50%;
+  box-shadow: 0 0 0 14pt rgba(233, 177, 35, 0.6) inset;
+  display: table;
+  table-layout: fixed;
+  cursor: pointer;
+  transition: all 0.6s ease;
+  padding: 14px;
+}
+.form-doc-info .suite-num-div .input-cicle:hover {
+  box-shadow: 0 0 0 5pt #e9b123 inset;
+}
+.form-doc-info .suite-num-div .input-cicle:hover span {
+  background-color: transparent;
+}
+.form-doc-info .suite-num-div .input-cicle.active {
+  box-shadow: 0 0 0 5pt #e9b123 inset;
+}
+.form-doc-info .suite-num-div .input-cicle.active span {
+  background-color: transparent;
+}
+.form-doc-info .suite-num-div .input-cicle span {
+  width: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  background-color: #e9b123;
+  border-radius: 50%;
+  font-size: 40px;
+  font-weight: 900;
+  color: #ffffff;
+  letter-spacing: 1px;
+}
+.form-doc-info .suite-num-div .input-cicle input {
+  visibility: hidden;
+  width: 100%;
+  height: 100%;
+}
+.form-doc-info span.plus-icon {
+  display: inline-block;
+  cursor: pointer;
+  margin-top: 4%;
+}
+.form-doc-info span.minus-icon {
+  display: none;
+  cursor: pointer;
+  margin-bottom: 4%;
+}
+.form-doc-info .suite-div2 {
+  display: none;
+}
+.cal-scr3 .procedure-info {
+  width: 70%;
+}
+.cal-scr3 .procedure-info h2 {
+  margin-bottom: 5%;
+  min-width: 450px;
+}
+.cal-scr3 .procedure-info .scroll-bar {
+  height: 400px;
+}
+.cal-scr3 .procedure-info .procedure-ot {
+  border: 1px solid rgba(233, 177, 35, 0.7);
+  padding: 20px 35px;
+  border-radius: 20px;
+  position: relative;
+  margin-bottom: 4%;
+  margin-top: 20px;
+  border-top: 0px;
+}
+.cal-scr3 .procedure-info .procedure-ot .ot-name {
+  width: 100%;
+  position: absolute;
+  top: -14px;
+  left: 0;
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: 1px;
+}
+.cal-scr3 .procedure-info .procedure-ot .ot-name:before {
+  content: '';
+  position: absolute;
+  left: 13px;
+  width: 40%;
+  top: 14px;
+  border-top: 1px solid rgba(233, 177, 35, 0.4);
+  border-radius: 20px;
+}
+.cal-scr3 .procedure-info .procedure-ot .ot-name:after {
+  content: '';
+  position: absolute;
+  right: 13px;
+  width: 40%;
+  top: 14px;
+  border-top: 1px solid rgba(233, 177, 35, 0.4);
+  border-radius: 20px;
+}
+.cal-scr3 .procedure-info .procedure-ot .plus-icon {
+  display: inline-block !important;
+}
+.cal-scr3 .procedure-info input,
+.cal-scr3 .procedure-info select {
+  border-bottom: 0px;
+  padding: 0;
+}
+.cal-scr3 .procedure-info select option {
+  background-color: #1c3d79;
+}
+.cal-scr3 .procedure-info table {
+  width: 100%;
+}
+.cal-scr3 .procedure-info table tr.separator {
+  height: 20px;
+}
+.cal-scr3 .procedure-info table tr.sel-procedure {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.cal-scr3 .procedure-info table tr.sel-procedure td:first-child {
+  border-top-left-radius: 10px;
+}
+.cal-scr3 .procedure-info table tr.sel-procedure td:last-child {
+  border-top-right-radius: 10px;
+}
+.cal-scr3 .procedure-info table tr.sel-procedure td:first-child {
+  border-bottom-left-radius: 10px;
+}
+.cal-scr3 .procedure-info table tr.sel-procedure td:last-child {
+  border-bottom-right-radius: 10px;
+}
+.cal-scr3 .procedure-info table td {
+  width: 20%;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 400;
+  color: #ffffff;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 15px 0px;
+}
+.cal-scr3 .procedure-info table td select,
+.cal-scr3 .procedure-info table td label {
+  font-size: 15px;
+  width: 100px;
+  font-weight: 700;
+  text-align: center;
+  display: inline-flex;
+  margin-bottom: 0px;
+}
+.cal-scr3 .procedure-info table td select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url("../images/select-icon.png");
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: 100%;
+  padding-right: 20px;
+}
+.cal-scr3 .procedure-info table td label {
+  text-transform: capitalize;
+  height: 21px;
+}
+.cal-scr3 .procedure-info table td label input {
+  margin-right: 9px;
+  font-size: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.17) !important;
+  margin-bottom: 0px;
+  text-align: center;
+}
+.cal-scr3 input[type=number]::-webkit-inner-spin-button,
+.cal-scr3 input[type=number]::-webkit-outer-spin-button {
+  opacity: 1;
+}
+.cal-scr3 .div-next {
+  margin-top: 6%;
+}
+.cal-scr3 span.plus-icon {
+  margin-top: 30px;
+}
+.cal-scr4 .procedure-info .border-btm {
+  width: 96%;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin: 3% auto;
+}
+.cal-scr4 .procedure-info table tr {
+  background-color: rgba(0, 0, 0, 0.15);
+}
+.cal-scr4 .procedure-info table tr td label {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  display: block;
+}
+.cal-scr4 .procedure-info table tr td:first-child {
+  border-bottom-left-radius: 10px;
+}
+.cal-scr4 .procedure-info table tr td:last-child {
+  border-bottom-right-radius: 10px;
+}
+.cal-scr4 .procedure-info table tr.sel-procedure td:first-child {
+  border-bottom-left-radius: 0px;
+}
+.cal-scr4 .procedure-info table tr.sel-procedure td:last-child {
+  border-bottom-right-radius: 0px;
+}
+.cal-scr4 .procedure-info .tbl-procedures {
+  margin-bottom: 30px;
+}
+.cal-scr4 .procedure-info .tbl-scopes tr td span {
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  color: #e9b123;
+  letter-spacing: 1px;
+}
+.cal-scr4 .procedure-info .tbl-scopes .sel-procedure td span {
+  display: block;
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: 1px;
+}
+/*calculation pages end*/
+/*Responsive Code Starts Here*/
+@media screen and (max-width: 1370px) {
+  .bg-login {
+    padding-top: 0px;
+  }
+  .bg-login .login-container form input {
+    padding: 10px 30px;
+    font-size: 14px;
+  }
+  .bg-login .login-container form button {
+    padding: 10px 30px;
+    font-size: 19px;
+  }
+  .calc-hist-optn-page .calc-icon-div h4,
+  .calc-hist-optn-page .hist-icon-div h4 {
+    font-size: 27px;
+  }
+  .calc-hist-optn-page .bg-icon-img {
+    width: 130px;
+    height: 130px;
+  }
+  .cal-scr2 .form-doc-info h2 {
+    padding: 15px 30px;
+    font-size: 23px;
+    margin: 3% 0%;
+  }
+  .cal-scr2 .form-doc-info .suite-num-div {
+    margin: 1.7% auto;
+  }
+  .cal-scr2 .form-doc-info .suite-num-div .input-cicle {
+    width: 115px;
+    height: 115px;
+  }
+  .cal-scr2 .form-doc-info .suite-num-div .input-cicle span {
+    font-size: 34px;
+  }
+  .cal-scr2 .form-doc-info span.plus-icon {
+    margin-top: 2%;
+  }
+  .cal-scr2 .form-doc-info .div-next {
+    margin-top: 4%;
+  }
+  .cal-scr3 .procedure-info {
+    width: 80%;
+  }
+  .cal-scr3 .procedure-info .procedure-info table td {
+    padding: 12px 0px;
+  }
+  .cal-scr3 .procedure-info .scroll-bar {
+    height: 320px;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .cal-scr3 .procedure-info h2 {
+    min-width: 380px;
+    font-size: 22px;
+    padding: 13px 25px;
+  }
+  .cal-scr3 .procedure-info .procedure-ot .ot-name {
+    font-size: 17px;
+  }
+  .cal-scr3 .procedure-info table td {
+    font-size: 12px;
+  }
+  .cal-scr3 .procedure-info table td select,
+  .cal-scr3 .procedure-info table td label {
+    font-size: 13px;
+  }
+  .cal-scr3 .procedure-info .scroll-bar {
+    height: 280px;
+  }
+}
+@media screen and (max-width: 1160px) {
+  .bg-login .login-container h2 {
+    font-size: 30px;
+  }
+  .bg-login .login-container form {
+    margin-top: 7%;
+  }
+  .bg-login .login-container form button {
+    font-size: 18px;
+  }
+  .form-doc-info {
+    width: 60%;
+  }
+  .form-doc-info input,
+  .form-doc-info select {
+    padding: 10px 50px 10px 10px;
+    font-size: 15px;
+  }
+  .form-doc-info .select-box .sprite2.sprite-select-icon {
+    top: 8px;
+    right: 12px;
+  }
+  .cal-scr3 .procedure-info {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 991px) {
+  .cal-scr2 .form-doc-info {
+    width: 700px;
+  }
+  .calc-hist-optn-page .calc-icon-div h4,
+  .calc-hist-optn-page .hist-icon-div h4 {
+    font-size: 22px;
+  }
+  .calc-hist-optn-page .bg-icon-img {
+    width: 100px;
+    height: 100px;
+  }
+  .calci-scr .calci-scr-inner .display-tablecell div h1 {
+    font-size: 40px;
+  }
+  .cal-scr3 .procedure-info table td {
+    font-size: 10px;
+    vertical-align: top;
+    padding: 15px 5px;
+  }
+  .cal-scr3 .procedure-info table td label,
+  .cal-scr3 .procedure-info table td select {
+    font-size: 11px;
+    width: 80px;
+  }
+  .cal-scr4 .procedure-info .tbl-scopes tr td span {
+    font-size: 17px;
+  }
+  .cal-scr4 .procedure-info .tbl-scopes .sel-procedure td span {
+    font-size: 15px;
+  }
+  .progress {
+    width: 100% !important;
+  }
+}
+@media screen and (max-width: 767px) {
+  .bg-login .login-container {
+    width: 370px;
+  }
+  .bg-login .login-container .logo-img img {
+    width: 200px;
+  }
+  .bg-login .login-container form {
+    width: 85%;
+  }
+  .bg-login .login-container form button {
+    padding: 7px 20px;
+  }
+  .calc-hist-optn-page .calc-icon-div,
+  .calc-hist-optn-page .hist-icon-div {
+    float: none !important;
+  }
+  .calc-hist-optn-page .calc-hist-optn-page-inner .col-lg-6 {
+    height: 50%;
+    width: 100%;
+  }
+  .calci-scr .calci-scr-inner .display-tablecell div {
+    width: 300px;
+  }
+  .calci-scr .calci-scr-inner .display-tablecell div h1 {
+    font-size: 30px;
+  }
+  .calci-scr .calci-scr-inner .display-tablecell div .sprite.sprite-arr-next {
+    background-position: 0px 0px;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    background-size: cover;
+  }
+  .form-doc-info {
+    width: 90%;
+    margin: 5% auto;
+  }
+  .form-doc-info input,
+  .form-doc-info select {
+    margin-bottom: 10px;
+  }
+  .cal-scr2 .form-doc-info {
+    width: 90%;
+  }
+  .cal-scr2 .form-doc-info h2 {
+    padding: 13px 25px;
+    font-size: 20px;
+  }
+  .cal-scr2 .form-doc-info .suite-num-div {
+    width: 32%;
+  }
+  .cal-scr2 .form-doc-info .suite-num-div .input-cicle {
+    width: 100px;
+    height: 100px;
+  }
+  .cal-scr2 .form-doc-info .suite-num-div .input-cicle span {
+    font-size: 27px;
+  }
+  .progress .progress-bar {
+    font-size: 0px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .cal-scr2 .form-doc-info h2 {
+    padding: 12px 20px;
+    font-size: 17px;
+    line-height: 1.4;
+  }
+  .cal-scr2 .form-doc-info .suite-num-div {
+    width: 49%;
+  }
+}
+@media screen and (max-width: 420px) {
+  .bg-login .login-container {
+    width: 100%;
+  }
+  .bg-login .login-container h2 {
+    font-size: 23px;
+  }
+  .bg-login .login-container .logo-img img {
+    width: 170px;
+  }
+  .bg-login .login-container form {
+    width: 90%;
+    max-width: 280px;
+  }
+  .bg-login .login-container form input,
+  .bg-login .login-container form select {
+    padding: 9px 25px;
+    font-size: 12px;
+    margin-bottom: 12px;
+  }
+  .bg-login .login-container form label {
+    font-size: 11px;
+  }
+  .bg-login .login-container form .checkboxdiv input[type="checkbox"] + label span {
+    width: 15px;
+    height: 15px;
+  }
+  .bg-login .login-container form button {
+    padding: 7px 20px;
+    margin-top: 25px;
+    font-size: 15px;
+  }
+}
+/*# sourceMappingURL=site.css.map */

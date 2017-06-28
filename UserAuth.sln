@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserAuth", "UserAuth\UserAuth.csproj", "{4238A1FA-4D5A-4D63-BBC3-B1DC8B0EE231}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebinkLibrary", "WebinkLibrary", "{3B3A663E-92F3-4D6C-B5EC-07D37377CC84}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebinkLibrary.Utils", "WebinkLibrary.Utils", "{5CDC5FC6-FC63-47A8-A0AB-6409A193D346}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebInkLibrary.Utils", "WebInkLibrary.Utils\WebInkLibrary.Utils.csproj", "{0DC9699F-60B7-4510-B31A-D25BEA6EDB4D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebInkLibrary.Core", "WebInkLibrary.Core", "{BDD726EB-A6EE-4301-A00F-96232B64D5A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebInkLibrary.Core", "WebInkLibrary.Core\WebInkLibrary.Core.csproj", "{CE56C12F-420D-4D08-ADC2-842432BBA8F5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4238A1FA-4D5A-4D63-BBC3-B1DC8B0EE231}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4238A1FA-4D5A-4D63-BBC3-B1DC8B0EE231}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4238A1FA-4D5A-4D63-BBC3-B1DC8B0EE231}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4238A1FA-4D5A-4D63-BBC3-B1DC8B0EE231}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DC9699F-60B7-4510-B31A-D25BEA6EDB4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DC9699F-60B7-4510-B31A-D25BEA6EDB4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DC9699F-60B7-4510-B31A-D25BEA6EDB4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DC9699F-60B7-4510-B31A-D25BEA6EDB4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE56C12F-420D-4D08-ADC2-842432BBA8F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE56C12F-420D-4D08-ADC2-842432BBA8F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE56C12F-420D-4D08-ADC2-842432BBA8F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE56C12F-420D-4D08-ADC2-842432BBA8F5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5CDC5FC6-FC63-47A8-A0AB-6409A193D346} = {3B3A663E-92F3-4D6C-B5EC-07D37377CC84}
+		{0DC9699F-60B7-4510-B31A-D25BEA6EDB4D} = {5CDC5FC6-FC63-47A8-A0AB-6409A193D346}
+		{BDD726EB-A6EE-4301-A00F-96232B64D5A7} = {3B3A663E-92F3-4D6C-B5EC-07D37377CC84}
+		{CE56C12F-420D-4D08-ADC2-842432BBA8F5} = {BDD726EB-A6EE-4301-A00F-96232B64D5A7}
+	EndGlobalSection
+EndGlobal
